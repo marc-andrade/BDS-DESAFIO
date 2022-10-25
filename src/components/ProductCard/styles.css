@@ -1,0 +1,43 @@
+.product-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-container h6{
+    color: #000000;
+    font-size: 18px;
+    font-weight: 700px;
+    padding-bottom: 10px;
+}
+
+.card-container p{
+    color: #585858;
+    font-size: 14px;
+    width: 277px;
+    padding-left: 15px;
+    padding-right: 10px;
+    text-align: left;
+}
+
+
+.product-card button,
+.product-card button:hover {
+  border-radius: 5px;
+  width: 80%;
+  height: 40px;
+  margin-bottom: 20px;
+}
+
+.btn h6 {
+  color: #fff;
+  font-size: 15px;
+  text-transform: uppercase;
+}

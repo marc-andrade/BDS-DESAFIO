@@ -1,0 +1,37 @@
+.searchbox-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ededed;
+  border-radius: 10px;
+  width: 100%;
+  height: 86px;
+  margin-bottom: 30px;
+}
+
+.searchbox-container button {
+  font-size: 14px;
+  border-radius: 0px 5px 5px 0px;
+  width: 77px;
+  height: 40px;
+}
+
+.btn h6 {
+  color: #fff;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.input-container {
+  width: 75%;
+}
+
+.input-container input{
+  color: #a7a7a7;
+  background-color: #ffffff;
+  border-radius: 5px 0px 0px 5px;
+  font-size: 14px;
+  border: none;
+  width: 100%;
+  height: 40px; 
+}

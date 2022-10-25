@@ -1,0 +1,152 @@
+.home-container {
+  padding: 30px;
+  font-size: 26px;
+  text-align: center;
+}
+
+.home-card {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 35px 20px 50px 20px;
+}
+
+.home-content-container h1 {
+  width: 400px;
+  font-size: 1em;
+  margin-bottom: 15px;
+}
+
+.home-content-container p {
+  width: 350px;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.home-image-container {
+  padding-top: 62px;
+}
+
+.home-image-container img {
+  width: 85%;
+  height: auto;
+}
+
+.home-card-bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.home-card-bottom p {
+  color: #585858;
+  font-size: 20px;
+  text-align: justify;
+  padding-bottom: 15px;
+  padding-top: 5px
+}
+
+@media (min-width: 576px) {
+
+  .home-container {
+    padding: 20px;
+    font-size: 30px;
+  }
+
+  .home-content-container {
+    padding: 20px 40px;
+  }
+
+  .home-content-container h1 {
+    width: 400px;
+    font-size: 34px;
+    margin-bottom: 0px;
+  }
+
+  .home-content-container p {
+    width: 413px;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  .home-image-container {
+    padding-top: 20px;
+  }
+
+  .bottom-content-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .btn-container {
+    padding-right: 10px;
+  }
+
+  .home-card-bottom p {
+    padding-top: 45px;
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 768px) {
+  .bottom-content-container{
+    padding-right: 200px;
+  }
+}
+
+@media (min-width: 992px) {
+  .home-image-container {
+    width: 455px;
+    padding-top: 30px;
+  }
+
+  .home-content-container {
+    width: 440px;
+    padding-top: 2px;
+    padding-bottom: 50px;
+  }
+
+  .bottom-content-container{
+    padding-right: 380px;
+  }
+
+  .home-container {
+    padding: 30px;
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 1200px) {
+
+  .home-card {
+    flex-direction:row;
+    align-items: flex-start;
+  }
+
+  .home-container {
+    padding: 30px 130px;
+  }
+  
+  .home-content-container {
+    width: 440px;
+    padding: 140px 63px 100px 85px;
+    text-align: left;
+  }
+
+  .home-image-container {
+    padding-top: 50px;
+  }
+
+}
